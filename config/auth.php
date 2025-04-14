@@ -44,12 +44,12 @@ return [
         // Добавим разделение пользователей в аутентификации
         'waiter' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'waiters',
         ],
 
         'cook' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'cooks',
         ],
     ],
 
@@ -73,7 +73,15 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', App\Models\User::class),
+            'model' => App\Models\User::class,
+        ],
+        'waiters' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Waiter::class,
+        ],
+        'cooks' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Cook::class,
         ],
     ],
 
