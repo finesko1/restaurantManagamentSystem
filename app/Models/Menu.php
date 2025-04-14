@@ -15,10 +15,6 @@ class Menu extends Model
     ];
 
     protected $hidden = [
-        'id',
-        'name',
-        'price',
-        'preparation_time',
         'created_at',
         'updated_at',
     ];
