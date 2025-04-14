@@ -7,7 +7,7 @@
 <script>
 import CookDashboard from '@/components/Cook/CookDashboard.vue';
 import WaiterDashboard from '@/components/Waiter/WaiterDashboard.vue';
-import Welcome from "@/components/Welcome.vue";
+import Welcome from "@/components/App/Welcome.vue";
 
 import {computed, onMounted, watch} from 'vue';
 import { useStore } from 'vuex';

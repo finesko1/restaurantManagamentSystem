@@ -3,11 +3,11 @@ import Home from '../components/App/Home.vue';
 import Login from '../components/Auth/Login.vue';
 import Register from '../components/Auth/Register.vue';
 import store from "@/stores/store.js";
-import WaiterDashboard from "@/components/Waiter/WaiterDashboard.vue";
-import CreateOrder from "@/components/Waiter/CreateOrder.vue";
-import OrderDetail from "@/components/Waiter/OrderDetail.vue";
-import OrderList from "@/components/Waiter/OrderList.vue";
-import CookDashboard from "@/components/Cook/CookDashboard.vue";
+import WaiterDashboard from "../components/Waiter/WaiterDashboard.vue";
+import CreateOrder from "../components/Orders/CreateOrder.vue";
+import OrderDetail from "../components/Orders/OrderDetail.vue";
+import OrderList from "../components/Orders/OrderList.vue";
+import CookDashboard from "../components/Cook/CookDashboard.vue";
 
 let OrderDetails;
 const routes = [

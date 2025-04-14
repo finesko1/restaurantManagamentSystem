@@ -73,8 +73,8 @@
 import {computed, onMounted, ref} from 'vue';
 import { useStore } from 'vuex';
 import router from "@/router/index.js";
-import OrderDetail from './OrderDetail.vue';
-import CreateOrder from "@/components/Waiter/CreateOrder.vue"; // Import OrderDetail
+import OrderDetail from '@/components/Orders/OrderDetail.vue';
+import CreateOrder from "@/components/Orders/CreateOrder.vue";
 
 export default {
     name: 'waiter-orders',

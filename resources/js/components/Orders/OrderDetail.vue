@@ -83,7 +83,7 @@
 import {computed, onMounted, ref} from 'vue';
 import {useStore} from 'vuex';
 import {useRoute} from 'vue-router';
-import Menu from "@/components/Waiter/Menu.vue";
+import Menu from "@/components/Orders/Menu.vue";
 
 export default {
     components: {Menu},

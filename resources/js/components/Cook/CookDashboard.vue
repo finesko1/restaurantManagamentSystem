@@ -8,7 +8,7 @@
 <script>
 import { useStore } from 'vuex';
 import { computed } from 'vue';
-import OrderList from "@/components/Waiter/OrderList.vue";
+import OrderList from "@/components/Orders/OrderList.vue";
 
 export default {
     name: 'CookDashboard',
